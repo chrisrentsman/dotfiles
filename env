@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+export EDITOR=vim
+
+# Additional / Program Environment Variables
+export RBENV_BIN=$HOME/.rbenv/bin
+
+# Set up path
+export PATH="$PATH:$RBENV_BIN"

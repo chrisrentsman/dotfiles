@@ -1,0 +1,9 @@
+"*":
+  core:
+    autoHideMenuBar: true
+  editor:
+    fontFamily: "Hack"
+  "exception-reporting":
+    userId: "ed98ea76-4411-25cf-ebac-564eaa5ae66a"
+  welcome:
+    showOnStartup: false
