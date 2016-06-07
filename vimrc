@@ -21,6 +21,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'scrooloose/nerdtree'
 
 " End Vundle configuration
 call vundle#end()	  " required
@@ -54,3 +55,6 @@ let g:ctrlp_cmd = 'CtrlP'
 let g:airline_powerline_fonts=1
 let g:airline_theme='base16'
 set laststatus=2
+
+" NerdTree Configuration
+map <C-\> :NERDTreeToggle<CR>
