@@ -20,6 +20,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'jiangmiao/auto-pairs'
 
 " End Vundle configuration
 call vundle#end()	  " required
