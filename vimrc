@@ -16,6 +16,10 @@ Plugin 'ervandew/supertab'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'chriskempson/base16-vim'
 Plugin 'tomtom/tcomment_vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
 
 " End Vundle configuration
 call vundle#end()	  " required
@@ -30,6 +34,7 @@ set relativenumber	       " relative line numbers
 set expandtab		       " 2 space indentation
 set shiftwidth=2
 set softtabstop=2
+set updatetime=250             " check for changes every 250ms
 
 " Color Configuration
 set background=dark
@@ -43,3 +48,8 @@ colorscheme base16-tomorrow
 " CtrlP Configuration
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+" Airline Configuration
+let g:airline_powerline_fonts=1
+let g:airline_theme='base16'
+set laststatus=2

@@ -2,7 +2,7 @@
 URxvt.font: xft:Hack:pixelsize=14:antialias=true
 URxvt.boldFont: xft:Hack:bold:pixelsize=14:antialias=true
 URxvt.letterSpace: -1
-URxvt.lineSpace: 1
+URxvt.lineSpace: 0
 
 ! Remove Scrollbar
 URxvt.scrollBar: false
