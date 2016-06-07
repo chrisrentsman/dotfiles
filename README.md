@@ -1,4 +1,4 @@
-# Chris Rentsman Dot Files
+# Chris Rentsman's Dot Files
 
 These are my dotfiles, based on [Ryan Bates' dotfiles](https://github.com/ryanb/dotfiles). I mainly use his rake install script and oh-my-zsh plugin. Thanks a lot!
 
