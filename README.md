@@ -9,7 +9,7 @@ Check out the alias file for my aliases, the function file for my custom functio
 Run the following commands in your terminal. It will prompt you before it does anything destructive. Check out the [Rakefile](https://github.com/chrisrentsman/dotfiles/blob/master/Rakefile) to see exactly what it does.
 
 ```terminal
-git clone git://github.com/ryanb/dotfiles ~/.dotfiles
+git clone git://github.com/chrisrentsman/dotfiles ~/.dotfiles
 cd ~/.dotfiles
 rake install
 ```
