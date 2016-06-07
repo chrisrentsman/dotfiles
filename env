@@ -6,4 +6,4 @@ export EDITOR=vim
 export RBENV_BIN=$HOME/.rbenv/bin
 
 # Set up path
-export PATH="$PATH:$RBENV_BIN"
+export PATH="$RBENV_BIN:$PATH"
