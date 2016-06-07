@@ -2,6 +2,8 @@
 
 These are my dotfiles, based on [Ryan Bates' dotfiles](https://github.com/ryanb/dotfiles). I mainly use his rake install script and oh-my-zsh plugin. Thanks a lot!
 
+Check out the alias file for my aliases, the function file for my custom functions, and the env file for how I manage my environment variables.
+
 ## Installation
 
 Run the following commands in your terminal. It will prompt you before it does anything destructive. Check out the [Rakefile](https://github.com/chrisrentsman/dotfiles/blob/master/Rakefile) to see exactly what it does.
