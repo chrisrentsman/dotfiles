@@ -51,6 +51,10 @@ colorscheme base16-tomorrow
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
+" Make CtrlP use ag for listing the files. Way faster and no useless files.
+let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+let g:ctrlp_use_caching = 0
+
 " Airline Configuration
 let g:airline_powerline_fonts=1
 let g:airline_theme='base16'
