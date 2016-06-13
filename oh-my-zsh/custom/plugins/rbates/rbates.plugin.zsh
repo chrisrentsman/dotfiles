@@ -2,10 +2,6 @@ c() { cd ~/Code/$1; }
 _c() { _files -W ~/Code -/; }
 compdef _c c
 
-h() { cd ~/$1; }
-_h() { _files -W ~/ -/; }
-compdef _h h
-
 # autocorrect is more annoying than helpful
 unsetopt correct_all
 
