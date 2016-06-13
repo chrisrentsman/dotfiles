@@ -12,16 +12,17 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " My plugins
-Plugin 'ervandew/supertab'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'chriskempson/base16-vim'
 Plugin 'tomtom/tcomment_vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'scrooloose/nerdtree'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'edkolev/tmuxline.vim'
 
 " End Vundle configuration
 call vundle#end()	  " required
@@ -51,14 +52,21 @@ colorscheme base16-tomorrow
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
-" Make CtrlP use ag for listing the files. Way faster and no useless files.
+" Make CtrlP use ag for listing the files.
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 let g:ctrlp_use_caching = 0
 
 " Airline Configuration
-let g:airline_powerline_fonts=1
 let g:airline_theme='base16'
+let g:airline_powerline_fonts=1
 set laststatus=2
 
 " NerdTree Configuration
 map <C-\> :NERDTreeToggle<CR>
+
+" YouCompleteMe Configuration
+let g:ycm_complete_in_comments=1
+let g:ycm_complete_in_strings=1
+let g:ycm_add_preview_to_completeopt=0
+set completeopt-=preview                  " no preview window
+
