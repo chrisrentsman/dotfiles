@@ -12,3 +12,4 @@ export NVM_DIR=$HOME/.nvm
 
 # Set up path
 export PATH="$RBENV_BIN:$PATH"
+export PATH="/home/chris/Desktop/TestPercolation/algs4.jar:$PATH"

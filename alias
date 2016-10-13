@@ -2,3 +2,4 @@
 
 alias u="cd .."
 alias h="cd"
+alias ml="cd ~/Desktop/Machine\ Learning"

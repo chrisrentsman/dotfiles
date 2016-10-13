@@ -23,6 +23,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'edkolev/tmuxline.vim'
+Plugin 'janko-m/vim-test'
+Plugin 'tpope/vim-dispatch'
 
 " End Vundle configuration
 call vundle#end()	  " required
@@ -47,6 +49,7 @@ colorscheme base16-tomorrow
 " ========================================================================
 " Keybindings and Leader Commands
 " ========================================================================
+let mapleader = ","     " change leader key to ,
 
 " CtrlP Configuration
 let g:ctrlp_map = '<c-p>'
@@ -70,3 +73,8 @@ let g:ycm_complete_in_strings=1
 let g:ycm_add_preview_to_completeopt=0
 set completeopt-=preview                  " no preview window
 
+" Vim Test Configuration
+nmap <silent> <leader>T :TestFile<CR>
+nmap <silent> <leader>l :TestLast<CR>
+nmap <silent> <leader>a :TestSuite<CR>
+nmap <silent> <leader>t :TestNearest<CR>
