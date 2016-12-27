@@ -25,6 +25,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'edkolev/tmuxline.vim'
 Plugin 'janko-m/vim-test'
 Plugin 'tpope/vim-dispatch'
+Plugin 'morhetz/gruvbox'
 
 " End Vundle configuration
 call vundle#end()	  " required
@@ -44,7 +45,7 @@ set updatetime=250             " check for changes every 250ms
 " Color Configuration
 set background=dark
 let base16colorspace=256
-colorscheme base16-tomorrow 
+colorscheme base16-tomorrow
 
 " ========================================================================
 " Keybindings and Leader Commands
