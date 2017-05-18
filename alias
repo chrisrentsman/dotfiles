@@ -2,4 +2,5 @@
 
 alias u="cd .."
 alias h="cd"
-alias ml="cd ~/Desktop/Machine\ Learning"
+alias c="cd /home/chris/Code"
+alias matlab=". /usr/local/MATLAB/R2016b/bin/matlab"
