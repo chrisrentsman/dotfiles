@@ -24,13 +24,4 @@ done;
 unset file;
 
 # Set up base16 shell
-[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
-
-# Set up rbenv
-eval "$(rbenv init -)"
-
-# Set up NVM
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-
-# Set up virtualenv wrapper
-source /usr/local/bin/virtualenvwrapper.sh
+[ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"

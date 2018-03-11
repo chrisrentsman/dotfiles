@@ -12,7 +12,6 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " My plugins
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'chriskempson/base16-vim'
 Plugin 'tomtom/tcomment_vim'
@@ -46,6 +45,10 @@ set updatetime=250             " check for changes every 250ms
 set background=dark
 let base16colorspace=256
 colorscheme base16-tomorrow
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif
 
 " ========================================================================
 " Keybindings and Leader Commands

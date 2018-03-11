@@ -2,5 +2,4 @@
 
 alias u="cd .."
 alias h="cd"
-alias c="cd /home/chris/Code"
-alias matlab=". /usr/local/MATLAB/R2016b/bin/matlab"
+alias c="cd $HOME/Code"

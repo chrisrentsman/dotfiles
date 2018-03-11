@@ -3,7 +3,7 @@
 export EDITOR=vim
 
 # Additional / Program Environment Variables
-export BASE16_SHELL="$HOME/.config/base16-shell/base16-tomorrow.dark.sh"
+export BASE16_SHELL="$HOME/.config/base16-shell/"
 export RBENV_BIN=$HOME/.rbenv/bin
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Code
